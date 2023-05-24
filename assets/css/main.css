@@ -614,3 +614,7 @@
   letter-spacing: -0.01em;
   color: var(--black-color);
 }
+
+#footer .copyright .lisence-link {
+  color: var(--primary-color);
+}
