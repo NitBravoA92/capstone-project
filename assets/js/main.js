@@ -1,7 +1,7 @@
 function headerBanner() {
   const scrollYPosition = window.scrollY;
   const banner = document.querySelector('.banner');
-  if(scrollYPosition < 100) {
+  if (scrollYPosition < 100) {
     banner.classList.add('show-banner');
   } else {
     banner.classList.remove('show-banner');
