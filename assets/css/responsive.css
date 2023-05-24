@@ -1,0 +1,410 @@
+@media (min-width: 768px) {
+  .container {
+    width: 88%;
+  }
+
+  #header {
+    position: fixed;
+    z-index: 3;
+  }
+
+  .banner.show-banner {
+    display: block;
+  }
+
+  .btn-mobile-menu {
+    display: none;
+  }
+
+  #navbar {
+    box-shadow: 4px 4px 4px var(--dark-color-opac-2);
+    background-color: var(--white-color);
+    padding: 0;
+  }
+
+  #navbar-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-container {
+    display: block;
+  }
+
+  .logo-container img {
+    width: 150px;
+    display: inline-block;
+  }
+
+  .navbar-menu {
+    position: relative;
+    height: auto;
+    background-color: transparent;
+    transform: none;
+    transition: none;
+    z-index: 1;
+    top: auto;
+    left: auto;
+    right: auto;
+  }
+
+  .navbar-menu ul {
+    gap: 20px;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  .navbar-menu ul li {
+    padding: 17.5px 0;
+  }
+
+  .navbar-menu ul li .nav-link {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    color: #868686;
+    transition: color 0.5s ease;
+  }
+
+  .navbar-menu ul li .nav-link:hover {
+    color: var(--primary-color);
+  }
+
+  .navbar-menu #btn-contact {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    transform: none;
+    margin-bottom: 0;
+  }
+
+  .section-title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+  }
+
+  #home-headline,
+  #about-headline {
+    padding: 15rem 1.25rem 8rem 2rem;
+  }
+
+  .section-image-bg.home-section {
+    top: 5rem;
+  }
+
+  .section-image-bg.about-section {
+    width: 80%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-position: center;
+  }
+
+  #about-headline .container {
+    align-items: center;
+  }
+
+  #main-title-container {
+    width: 70%;
+  }
+
+  .first-greeting {
+    font-size: 40px;
+    margin-bottom: 1rem;
+  }
+
+  #about-headline .first-greeting {
+    display: none;
+  }
+
+  #home-title {
+    font-size: 70px;
+    margin-bottom: 3rem;
+  }
+
+  #about-title {
+    font-size: 60px;
+  }
+
+  .headline-description {
+    margin-bottom: 4rem;
+  }
+
+  .headline-description p {
+    font-weight: 600;
+  }
+
+  #home-headline .headline-description p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  #about-headline .headline-description p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  #headline-date-details {
+    font-size: 42.5px;
+    padding-bottom: 1rem;
+  }
+
+  #headline-location-info {
+    font-size: 28px;
+  }
+
+  #headline-contact-container {
+    width: 50%;
+  }
+
+  #contact-details {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.5rem;
+  }
+
+  #contact-email a {
+    font-size: 17px;
+  }
+
+  #main-program {
+    padding: 4.58rem 1.2rem;
+  }
+
+  #program-items-boxes {
+    padding: 4.38rem 0;
+    grid-auto-rows: minmax(180px, auto);
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 0.25rem;
+  }
+
+  .program-item {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1.5rem 1.1rem 1rem;
+    gap: 10px;
+  }
+
+  .program-item:hover {
+    transform: translateY(-20px);
+  }
+
+  .program-item .item-icon {
+    width: 40px;
+    max-width: 45px;
+  }
+
+  .program-item .item-icon img {
+    width: 100%;
+  }
+
+  .program-item .item-title,
+  .program-item .item-details {
+    text-align: center;
+    width: 100%;
+  }
+
+  .program-item .item-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .program-item .item-details {
+    font-size: 11px;
+    line-height: 18px;
+    padding: 0 0.2rem;
+  }
+
+  #get-appointment-link {
+    display: none;
+  }
+
+  #check-whole-program {
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: var(--white-color);
+    transition: all 0.5s ease;
+  }
+
+  #check-whole-program:hover {
+    color: var(--dark-primary-color);
+    transform: scale(1.1);
+    text-decoration-line: none;
+  }
+
+  #featured-contributors {
+    padding: 4.65rem 0.7rem;
+  }
+
+  #contributors-items-boxes {
+    padding: 3.5rem 0 1.88rem 0;
+    gap: 1.5rem;
+  }
+
+  .contributor {
+    width: 47%;
+  }
+
+  #logo-event-ptw2023,
+  #latest-events {
+    padding: 4.58rem 1.2rem;
+  }
+
+  #logo-origin-details {
+    width: 65%;
+  }
+
+  #logo-event-ptw2023-image {
+    width: 75%;
+    padding: 2rem 1rem;
+  }
+
+  #event-items-container {
+    width: 80%;
+    padding: 2rem 0;
+  }
+
+  .event-box {
+    width: 48%;
+  }
+
+  #partner {
+    padding: 2.19rem 1.2rem 2.19rem 1.2rem;
+  }
+
+  #partner.active-aboutp-mobilev {
+    display: none;
+  }
+
+  #partners-logos-link {
+    padding-top: 3.13rem;
+  }
+
+  #partners-logos-link ul {
+    gap: 2.5rem;
+  }
+
+  #partners-logos-link .partner-link {
+    width: 180px;
+  }
+
+  #footer {
+    padding: 4.65rem 1.25rem;
+  }
+
+  #footer.darkbg {
+    background-color: var(--dark-bg-color);
+  }
+
+  #footer .copyright-wrapper {
+    gap: 4.5rem;
+  }
+
+  #footer .logo-website {
+    width: 250px;
+    padding-left: 1.5rem;
+  }
+
+  #footer .copyright {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  #footer.darkbg .copyright {
+    color: var(--white-color);
+  }
+
+  .footer-about-mobile {
+    display: none;
+  }
+
+  .footer-about-desktop {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 80%;
+  }
+
+  .logo-container img {
+    width: 180px;
+    display: inline-block;
+  }
+
+  .navbar-menu ul {
+    gap: 50px;
+  }
+
+  #first-greeting,
+  #home-title,
+  #about-headline .headline-description,
+  #headline-date-details,
+  #headline-location-info {
+    width: 75%;
+  }
+
+  #home-headline .headline-description {
+    width: 65%;
+  }
+
+  #headline-location-info {
+    width: 75%;
+  }
+
+  .contributor {
+    width: 48%;
+  }
+
+  .contributors-photo {
+    position: relative;
+    width: 35%;
+  }
+
+  .contributors-photo .photo {
+    width: 95%;
+    position: relative;
+    z-index: 1;
+    transform: translate(15px, 15px);
+  }
+
+  .decorative-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 55%;
+    filter: grayscale(100%);
+  }
+
+  .contributors-info {
+    width: 65%;
+  }
+
+  .contributors-info .name {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .contributors-info .profile {
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: -0.09em;
+  }
+
+  .contributors-info .description {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+  }
+}
