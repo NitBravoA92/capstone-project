@@ -552,6 +552,10 @@
   padding: 1.25rem 0.7rem 2.50rem 0.7rem;
 }
 
+.active-aboutp-mobilev {
+  display: block;
+}
+
 #partners-logos-link {
   padding-top: 1.4rem;
 }
@@ -592,6 +596,14 @@
 
 #footer .logo-website {
   width: 135px;
+}
+
+.footer-about-mobile {
+  display: inline-block;
+}
+
+.footer-about-desktop {
+  display: none;
 }
 
 #footer .logo-website img {
