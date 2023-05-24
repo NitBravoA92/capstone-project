@@ -143,3 +143,99 @@
 .navbar-menu {
   display: none;
 }
+
+#home-headline {
+  padding: 11.25rem 1.25rem 4.44rem 1.25rem;
+}
+
+.section-image-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+}
+
+.section-image-bg.home-section {
+  top: 0;
+  z-index: -1;
+  background-image: url('../img/home-headline_bg.png');
+  background-size: cover;
+  background-position: center top;
+}
+
+.first-greeting {
+  display: block;
+  width: 100%;
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 23px;
+  margin-bottom: 0.8rem;
+}
+
+.headline-title {
+  width: 100%;
+  text-transform: uppercase;
+  font-family: CocogooseBold;
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+#home-title {
+  color: rgba(255, 20, 0, 0.7);
+  -webkit-text-fill-color: rgba(255, 20, 0, 0.7);
+  background-image: url('../img/felicidad-4.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: right top;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
+
+#home-title .year {
+  font-family: var(--main-font-family);
+  text-decoration: underline;
+}
+
+#home-headline .headline-description {
+  background-color: #F8F8F8;
+  border: 4px solid var(--white-color);
+}
+
+.headline-description {
+  width: 100%;
+  padding: 16px 14px;
+  margin-bottom: 1.5rem;
+}
+
+.headline-description p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: -0.01em;
+  color: #515151;
+  text-align: center;
+}
+
+#headline-date-details {
+  width: 100%;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.08em;
+  color: #595959;
+  padding-bottom: 0.2rem;
+}
+
+#headline-location-info {
+  width: 100%;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #868686;
+}
