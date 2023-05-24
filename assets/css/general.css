@@ -97,7 +97,7 @@ body {
 
 .primary_fill_button {
   padding: 1.2rem 3rem;
-  background-color: var(--primary-color);
+  background-color: var(--dark-primary-color);
   color: var(--white-color);
   font-size: 16px;
   line-height: 28px;
@@ -113,7 +113,7 @@ body {
 }
 
 .primary_fill_button:active {
-  background-color: var(--dark-primary-color);
+  background-color: var(--primary-color);
 }
 
 .min_ht_full {

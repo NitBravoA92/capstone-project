@@ -236,7 +236,7 @@
   }
 
   #check-whole-program:hover {
-    color: var(--primary-color);
+    color: var(--dark-primary-color);
     transform: scale(1.1);
     text-decoration-line: none;
   }
