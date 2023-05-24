@@ -150,9 +150,6 @@
 
 #about-headline {
   padding: 6rem 1.25rem 2rem 1.25rem;
-}
-
-#about-headline {
   background: var(--light-secondary-color);
 }
 
@@ -198,7 +195,7 @@
 .headline-title {
   width: 100%;
   text-transform: uppercase;
-  font-family: CocogooseBold;
+  font-family: 'CocogooseBold', sans-serif;
   font-size: 38px;
   font-weight: 900;
   margin-bottom: 2rem;
@@ -227,20 +224,20 @@
   text-decoration: underline;
 }
 
+.headline-description {
+  width: 100%;
+  padding: 16px 14px;
+  margin-bottom: 1.5rem;
+}
+
 #home-headline .headline-description {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   border: 4px solid var(--white-color);
 }
 
 #about-headline .headline-description {
   background-color: var(--white-color);
   border: 1.4px solid #c4c4c4;
-}
-
-.headline-description {
-  width: 100%;
-  padding: 16px 14px;
-  margin-bottom: 1.5rem;
 }
 
 .headline-description p {
@@ -276,7 +273,7 @@
   font-size: 12px;
   line-height: 25px;
   text-align: center;
-  color: #7A7A7A;
+  color: #7a7a7a;
 }
 
 #contact-email {
@@ -290,7 +287,7 @@
   text-align: center;
   letter-spacing: 0.02em;
   text-decoration-line: underline;
-  color: #5F5F5F;
+  color: #5f5f5f;
 }
 
 #main-program {
@@ -318,7 +315,7 @@
 }
 
 #program-items-boxes {
-  padding: 2.50rem 0;
+  padding: 2.5rem 0;
   display: grid;
   grid-auto-rows: minmax(82.06px, auto);
   grid-template-columns: minmax(200px, 100%);
@@ -326,7 +323,7 @@
 }
 
 .program-item {
-  padding: 0.6rem 0.50rem 0.6rem 0.79rem;
+  padding: 0.6rem 0.5rem 0.6rem 0.79rem;
   gap: 12px;
   background-color: rgb(59, 62, 69, 0.5);
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -480,7 +477,7 @@
 }
 
 #logo-event-ptw2023-image img:hover {
-  transform: scale(1.20);
+  transform: scale(1.2);
 }
 
 #event-items-container {
@@ -495,8 +492,8 @@
   overflow: hidden;
 }
 
-.event-details, 
-.event-details a {
+.event-details,
+.event-details .link-event-page {
   width: 100%;
   height: 100%;
 }
@@ -525,7 +522,7 @@
 }
 
 .event-image-cover,
-.event-image-cover img {
+.event-image-cover .event-image-bg {
   width: 100%;
   height: 100%;
 }
@@ -537,7 +534,7 @@
   z-index: -1;
 }
 
-.event-image-cover img {
+.event-image-cover .event-image-bg {
   object-fit: cover;
   object-position: center;
 }
@@ -549,7 +546,7 @@
 
 #partner {
   background-color: var(--dark-bg-color);
-  padding: 1.25rem 0.7rem 2.50rem 0.7rem;
+  padding: 1.25rem 0.7rem 2.5rem 0.7rem;
 }
 
 .active-aboutp-mobilev {
@@ -582,7 +579,7 @@
 
 #partners-logos-link .partner-link a img:hover {
   filter: grayscale(0%);
-  transform: scale(1.20);
+  transform: scale(1.2);
 }
 
 #footer {
@@ -606,7 +603,7 @@
   display: none;
 }
 
-#footer .logo-website img {
+#footer .logo-website .logo-footer {
   width: 100%;
 }
 

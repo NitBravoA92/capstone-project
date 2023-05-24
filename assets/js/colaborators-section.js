@@ -1,44 +1,43 @@
-
 function getFeaturesContributorsData() {
-  const data_contributors = [
+  const dataContributors = [
     {
       name: 'Alan Roberts',
       profile: 'Clinical Social Work/Psychologist/Family therapist. PhD at Brock University.',
       about_work: 'He specializes in Anxiety, Depression and Addiction. Alan Utilizes motivational interviewing, cognitive behavioral therapy, narrative framework, and a holistic and humanistic approach.',
-      photo_url: './assets/img/contributors/alan-roberts-pic.jpg'
+      photo_url: './assets/img/contributors/alan-roberts-pic.jpg',
     },
     {
       name: 'Melany Hamilton',
       profile: 'Psychologist, PhD. Professor of Clinical Psychology at University College London',
       about_work: 'She is the founder of the Mind Foundation, the largest community in the field of psychology and neurosciences. She specializes in Depression, Anxiety and Obsessive-Compulsive (OCD).',
-      photo_url: './assets/img/contributors/melany-hamilton-pic.jpg'
+      photo_url: './assets/img/contributors/melany-hamilton-pic.jpg',
     },
     {
       name: 'Patrick Stewart',
       profile: 'Trained professional Licensed Mental Health Counselor, MS, LMHC. Professor and Researcher at University of Michigan.',
       about_work: 'He is a specialist in Depression, Anxiety and Anger Management. He has been collaborating for 5 years with the University of Michigan in the study and application of CBT therapy.',
-      photo_url: './assets/img/contributors/patrick-stewart-pic.jpg'
+      photo_url: './assets/img/contributors/patrick-stewart-pic.jpg',
     },
     {
       name: 'Rebeca Miller',
       profile: 'Psychologist, PhD at University of Michigan. Researcher in the Department of Psychology at Arizona State University.',
       about_work: 'She specializes in the treatment of children, adolescents, families, couples, and individual adults. She works at the Children\'s Psychiatry Hospital in Detroit providing follow-up studies of boys with ADHD.',
-      photo_url: './assets/img/contributors/rebeca-miller-pic.jpg'
+      photo_url: './assets/img/contributors/rebeca-miller-pic.jpg',
     },
     {
       name: 'Mark Woods',
       profile: 'Psychologist, PhD. Otto Weininger Memorial Award Nominee of the Canadian Psychological Association.',
       about_work: 'He is a psychoanalytic/psychodynamic expert with extensive experience in psychoanalytic research at Oxford University and Columbia College. He is a speaker and writer.',
-      photo_url: './assets/img/contributors/mark-woods-pic.jpg'
+      photo_url: './assets/img/contributors/mark-woods-pic.jpg',
     },
     {
       name: 'Susan Silverman',
       profile: 'Psychologist, Speaker. Professor of Psychoanalysis at Carleton University.',
       about_work: 'She specializes in Depression, Relationship Issues and Borderline Personality (BPD). Over 10 years of experience applying evidence-based treatment and lecturing on depression, anxiety, relationship difficulties, and self-career confusion.',
-      photo_url: './assets/img/contributors/susan-silverman-pic.jpg'
-    }
+      photo_url: './assets/img/contributors/susan-silverman-pic.jpg',
+    },
   ];
-  return data_contributors;
+  return dataContributors;
 }
 
 function createContributorItem(data) {
@@ -59,7 +58,7 @@ function createContributorItem(data) {
 }
 
 function showContributors(contributors, container) {
-  for (let index = 0; index < contributors.length; index++) {
+  for (let index = 0; index < contributors.length; index += 1) {
     container.innerHTML += createContributorItem(contributors[index]);
   }
 }
