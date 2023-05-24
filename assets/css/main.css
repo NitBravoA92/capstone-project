@@ -148,6 +148,14 @@
   padding: 11.25rem 1.25rem 4.44rem 1.25rem;
 }
 
+#about-headline {
+  padding: 6rem 1.25rem 2rem 1.25rem;
+}
+
+#about-headline {
+  background: var(--light-secondary-color);
+}
+
 .section-image-bg {
   position: absolute;
   left: 0;
@@ -166,6 +174,14 @@
   background-position: center top;
 }
 
+.section-image-bg.about-section {
+  top: 3rem;
+  z-index: 1;
+  background-image: url('../img/headline-about-bg.png');
+  background-size: 100%;
+  background-position: center top;
+}
+
 .first-greeting {
   display: block;
   width: 100%;
@@ -173,6 +189,10 @@
   font-weight: 400;
   font-size: 23px;
   margin-bottom: 0.8rem;
+}
+
+#about-headline .first-greeting {
+  text-align: center;
 }
 
 .headline-title {
@@ -196,7 +216,13 @@
   background-clip: text;
 }
 
-#home-title .year {
+#about-title {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+#home-title .year,
+#about-title .year {
   font-family: var(--main-font-family);
   text-decoration: underline;
 }
@@ -204,6 +230,11 @@
 #home-headline .headline-description {
   background-color: #F8F8F8;
   border: 4px solid var(--white-color);
+}
+
+#about-headline .headline-description {
+  background-color: var(--white-color);
+  border: 1.4px solid #c4c4c4;
 }
 
 .headline-description {
@@ -238,6 +269,28 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #868686;
+}
+
+#contact-details {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  color: #7A7A7A;
+}
+
+#contact-email {
+  text-align: center;
+}
+
+#contact-email a {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  color: #5F5F5F;
 }
 
 #main-program {
