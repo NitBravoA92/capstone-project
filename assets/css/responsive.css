@@ -71,7 +71,7 @@
     color: var(--primary-color);
   }
 
-  .navbar-menu #btn-contact  {
+  .navbar-menu #btn-contact {
     position: relative;
     left: auto;
     bottom: auto;
