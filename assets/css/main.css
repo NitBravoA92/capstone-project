@@ -454,7 +454,8 @@
   color: var(--black-color);
 }
 
-#logo-event-ptw2023 {
+#logo-event-ptw2023,
+#latest-events {
   background-color: var(--white-color);
   padding: 1.5rem 0.7rem 2.03rem 0.7rem;
 }
@@ -480,6 +481,70 @@
 
 #logo-event-ptw2023-image img:hover {
   transform: scale(1.20);
+}
+
+#event-items-container {
+  padding: 0 1rem;
+}
+
+.event-box {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.event-details, 
+.event-details a {
+  width: 100%;
+  height: 100%;
+}
+
+.event-details {
+  background-color: var(--light-primary-color);
+}
+
+.event-year,
+.event-name {
+  color: var(--white-color);
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.event-year {
+  font-size: 40px;
+  padding: 1.5rem 1.6rem 0.5rem;
+}
+
+.event-name {
+  font-size: 18px;
+  padding: 0.5rem 1.5rem 1rem;
+}
+
+.event-image-cover,
+.event-image-cover img {
+  width: 100%;
+  height: 100%;
+}
+
+.event-image-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.event-image-cover img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.event-details:hover .event-year,
+.event-details:hover .event-name {
+  transform: scale(1.1);
 }
 
 #partner {
