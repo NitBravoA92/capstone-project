@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
-  <img src=".\assets\img\logo-original.png" alt="logo website" width="140"  height="auto" />
+  <img src=".\assets\img\logo-original.png" alt="logo website" width="200"  height="auto" />
   <br/>
   <h3><b>PSYCHOLOGICAL THERAPY WEEK IN 2023</b></h3>
 </div>
