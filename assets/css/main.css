@@ -325,7 +325,7 @@
 .program-item {
   padding: 0.6rem 0.5rem 0.6rem 0.79rem;
   gap: 12px;
-  background-color: rgb(59, 62, 69, 0.5);
+  background-color: rgba(245, 245, 245, 0.17);
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -335,28 +335,28 @@
 }
 
 .program-item .item-icon {
-  width: 20%;
+  width: 15%;
   max-width: 65px;
 }
 
 .program-item .item-icon img {
-  width: 80%;
+  width: 82%;
 }
 
 .program-item .item-title {
-  width: 25%;
+  width: 23%;
   font-weight: 700;
   font-size: 14px;
   line-height: 25px;
   letter-spacing: -0.01em;
-  color: var(--primary-color);
+  color: var(--dark-primary-color);
 }
 
 .program-item .item-details {
-  width: 55%;
+  width: 62%;
   font-weight: 700;
   font-size: 11px;
-  line-height: 22px;
+  line-height: 18px;
   letter-spacing: 0.06em;
   color: var(--white-color);
 }

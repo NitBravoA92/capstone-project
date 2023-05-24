@@ -156,14 +156,16 @@
 
   #program-items-boxes {
     padding: 4.38rem 0;
-    grid-auto-rows: minmax(231px, auto);
+    grid-auto-rows: minmax(180px, auto);
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 0.25rem;
   }
 
   .program-item {
     flex-direction: column;
     justify-content: flex-start;
-    padding: 1rem 0.8rem;
+    padding: 1.5rem 1.1rem 1rem;
+    gap: 10px;
   }
 
   .program-item:hover {
@@ -171,8 +173,8 @@
   }
 
   .program-item .item-icon {
-    width: 50px;
-    max-width: 60px;
+    width: 40px;
+    max-width: 45px;
   }
 
   .program-item .item-icon img {
@@ -186,13 +188,14 @@
   }
 
   .program-item .item-title {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .program-item .item-details {
-    font-size: 12px;
-    line-height: 23px;
+    font-size: 11px;
+    line-height: 18px;
+    padding: 0 0.2rem;
   }
 
   #get-appointment-link {
