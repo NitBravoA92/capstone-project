@@ -154,3 +154,45 @@ body {
 .text_white {
   color: var(--white-color);
 }
+
+main {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-title {
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  padding-bottom: 13px;
+  color: var(--black-color);
+}
+
+.section-title::before {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 50%;
+  width: 51px;
+  height: 2px;
+  background-color: var(--dark-primary-color);
+  transform: translateX(-50%);
+}
+
+.section-description {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #838383;
+  padding: 0.8rem 0 2.50rem;
+}
