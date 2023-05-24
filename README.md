@@ -2,7 +2,7 @@
 <div align="center">
   <img src=".\assets\img\logo-original.png" alt="logo website" width="200"  height="auto" />
   <br/>
-  <h3><b>PSYCHOLOGICAL THERAPY WEEK IN 2023</b></h3>
+  <h3><b>PSYCHOLOGICAL THERAPY WEEK EVENT 2023</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -25,9 +25,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 PSYCHOLOGICAL THERAPY WEEK IN 2023 <a name="about-project"></a>
+# 📖 PSYCHOLOGICAL THERAPY WEEK EVENT 2023 <a name="about-project"></a>
 
-**PSYCHOLOGICAL THERAPY WEEK IN 2023** project consists of the construction of the Psychological therapy Week 2023 Event website, using HTML, CSS and Javascript. The website consists of two pages: HOME and ABOUT, which were designed following the Mobile first approach, it is a 100% responsive design, optimized for sites on all devices. Through this project, the skills to build websites from scratch using only HTML, CSS and Javascript following a mobile first approach are put into practice. This project is part of the Capstone Project activity of Module 1 at Microverse program.
+**PSYCHOLOGICAL THERAPY WEEK EVENT 2023** project consists of the construction of the Psychological therapy Week Event 2023 website, using HTML, CSS and Javascript. The website consists of two pages: HOME and ABOUT, which were designed following the Mobile first approach, it is a 100% responsive design, optimized for sites on all devices. Through this project, the skills to build websites from scratch using only HTML, CSS and Javascript following a mobile first approach are put into practice. This project is part of the Capstone Project activity of Module 1 at Microverse program.
 
 ## 🛠 Built With <a name="built-with"></a>
 
