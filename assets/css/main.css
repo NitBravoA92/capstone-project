@@ -318,3 +318,85 @@
 #get-appointment-link {
   display: block;
 }
+
+#check-whole-program {
+  display: none;
+}
+
+#featured-contributors {
+  background-color: var(--white-color);
+  padding: 1rem 0.7rem 2.03rem 0.7rem;
+}
+
+#contributors-items-boxes {
+  width: 100%;
+  padding: 1.88rem 0;
+  gap: 1rem;
+}
+
+.contributor {
+  width: 100%;
+}
+
+.contributors-photo {
+  position: relative;
+  width: 30%;
+}
+
+.contributors-photo .photo {
+  width: 95%;
+  position: relative;
+  z-index: 1;
+  transform: translate(8px, 10px);
+}
+
+.decorative-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 40%;
+  filter: grayscale(100%);
+}
+
+.contributors-info {
+  width: 70%;
+}
+
+.contributors-info .name {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: var(--black-color);
+  margin-bottom: 0.3rem;
+}
+
+.contributors-info .profile {
+  position: relative;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  color: var(--light-pink-color);
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.contributors-info .profile::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  width: 17.5px;
+  height: 0.5px;
+  background-color: var(--secondary-color);
+}
+
+.contributors-info .description {
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 14px;
+  letter-spacing: -0.06em;
+  color: var(--black-color);
+}
