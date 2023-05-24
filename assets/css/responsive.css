@@ -23,23 +23,36 @@
   }
 
   #navbar-content {
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   .logo-container {
-    width: 140px;
+    display: block;
   }
 
   .logo-container img {
+    width: 150px;
     display: inline-block;
   }
 
   .navbar-menu {
-    display: block;
+    position: relative;
+    height: auto;
+    background-color: transparent;
+    transform: none;
+    transition: none;
+    z-index: 1;
+    top: auto;
+    left: auto;
+    right: auto;
   }
 
   .navbar-menu ul {
     gap: 20px;
+    flex-direction: row;
+    justify-content: end;
   }
 
   .navbar-menu ul li {
@@ -56,6 +69,14 @@
 
   .navbar-menu ul li .nav-link:hover {
     color: var(--primary-color);
+  }
+
+  .navbar-menu #btn-contact  {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    transform: none;
+    margin-bottom: 0;
   }
 
   .section-title {
@@ -316,8 +337,9 @@
     width: 80%;
   }
 
-  .logo-container {
+  .logo-container img {
     width: 180px;
+    display: inline-block;
   }
 
   .navbar-menu ul {
