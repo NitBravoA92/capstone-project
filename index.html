@@ -13,18 +13,6 @@
 </head>
 
 <body>
-  <section id="mobile-menu" class="hidden box_flex flex_col justify_center gap_40">
-    <ul class="box_flex flex_col align_center gap_40">
-      <li><a href="about.html" class="mobile-nav-link" data-name="About">About</a></li>
-      <li><a href="#" class="mobile-nav-link" data-name="Program">Program</a></li>
-      <li><a href="#" class="mobile-nav-link" data-name="Join">Join</a></li>
-      <li><a href="#" class="mobile-nav-link" data-name="Sponsor">Sponsor</a></li>
-      <li><a href="#" class="mobile-nav-link" data-name="News">News</a></li>
-    </ul>
-    <div class="box_flex justify_center menu-footer-button">
-      <a href="#" class="btn_default primary_line_button">MH Campaigns</a>
-    </div>
-  </section>
   <header id="header">
     <div class="banner show-banner">
       <div class="container">
@@ -38,7 +26,7 @@
     </div>
     <div id="navbar">
       <div class="container">
-        <div class="box_flex align_center" id="navbar-content">
+        <div class="box_flex" id="navbar-content">
           <div class="btn-mobile-menu">
             <button type="button" class="btn_default box_flex flex_col align_center" id="open-mobile-menu">
               <span></span>
@@ -47,17 +35,17 @@
             </button>
           </div>
           <div class="logo-container">
-            <a href="index.html">
+            <a href="index.html" class="box_flex flex_col justify_end">
               <img src="./assets/img/logo-original.png" alt="Logo Psychological therapy Week 2023">
             </a>
           </div>
-          <nav class="navbar-menu">
-            <ul class="box_flex align_center">
-              <li><a href="about.html" class="nav-link">About</a></li>
-              <li><a href="#" class="nav-link">Program</a></li>
-              <li><a href="#" class="nav-link">Join</a></li>
-              <li><a href="#" class="nav-link">Sponsor</a></li>
-              <li><a href="#" class="nav-link">News</a></li>
+          <nav class="navbar-menu box_flex align_center">
+            <ul class="box_flex flex_col justify_center align_center">
+              <li><a href="about.html" class="nav-link" data-name="About">About</a></li>
+              <li><a href="#" class="nav-link" data-name="Program">Program</a></li>
+              <li><a href="#" class="nav-link" data-name="Join">Join</a></li>
+              <li><a href="#" class="nav-link" data-name="Sponsor">Sponsor</a></li>
+              <li><a href="#" class="nav-link" data-name="News">News</a></li>
               <li><a href="#" class="btn_default primary_line_button" id="btn-contact">MH Campaigns</a></li>
             </ul>
           </nav>
