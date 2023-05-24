@@ -287,3 +287,79 @@
     line-height: 28px;
   }
 }
+
+@media (min-width: 992px) {
+  .container {
+    width: 80%;
+  }
+
+  .logo-container {
+    width: 180px;
+  }
+
+  .navbar-menu ul {
+    gap: 50px;
+  }
+
+  #first-greeting,
+  #home-title,
+  #about-headline .headline-description,
+  #headline-date-details,
+  #headline-location-info {
+    width: 75%;
+  }
+
+  #home-headline .headline-description {
+    width: 65%;
+  }
+
+  #headline-location-info {
+    width: 75%;
+  }
+
+  .contributor {
+    width: 48%;
+  }
+
+  .contributors-photo {
+    position: relative;
+    width: 35%;
+  }
+
+  .contributors-photo .photo {
+    width: 95%;
+    position: relative;
+    z-index: 1;
+    transform: translate(15px, 15px);
+  }
+
+  .decorative-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 55%;
+    filter: grayscale(100%);
+  }
+
+  .contributors-info {
+    width: 65%;
+  }
+
+  .contributors-info .name {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .contributors-info .profile {
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: -0.09em;
+  }
+
+  .contributors-info .description {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+  }
+}
