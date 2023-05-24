@@ -454,6 +454,34 @@
   color: var(--black-color);
 }
 
+#logo-event-ptw2023 {
+  background-color: var(--white-color);
+  padding: 1.5rem 0.7rem 2.03rem 0.7rem;
+}
+
+#logo-event-ptw2023 {
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+#logo-event-ptw2023-image {
+  width: 100%;
+  border: 1px solid var(--secondary-color);
+  padding: 2rem 1rem;
+}
+
+#logo-event-ptw2023-image a {
+  width: 100%;
+}
+
+#logo-event-ptw2023-image img {
+  width: 70%;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#logo-event-ptw2023-image img:hover {
+  transform: scale(1.20);
+}
+
 #partner {
   background-color: var(--dark-bg-color);
   padding: 1.25rem 0.7rem 2.50rem 0.7rem;
