@@ -257,6 +257,10 @@
     padding: 2.19rem 1.2rem 2.19rem 1.2rem;
   }
 
+  #partner.active-aboutp-mobilev {
+    display: none;
+  }
+
   #partners-logos-link {
     padding-top: 3.13rem;
   }
@@ -273,6 +277,10 @@
     padding: 4.65rem 1.25rem;
   }
 
+  #footer.darkbg {
+    background-color: var(--dark-bg-color);
+  }
+
   #footer .copyright-wrapper {
     gap: 4.5rem;
   }
@@ -285,6 +293,18 @@
   #footer .copyright {
     font-size: 14px;
     line-height: 28px;
+  }
+
+  #footer.darkbg .copyright {
+    color: var(--white-color);
+  }
+
+  .footer-about-mobile {
+    display: none;
+  }
+  
+  .footer-about-desktop {
+    display: inline-block;
   }
 }
 
