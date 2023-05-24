@@ -400,3 +400,37 @@
   letter-spacing: -0.06em;
   color: var(--black-color);
 }
+
+#partner {
+  background-color: var(--dark-bg-color);
+  padding: 1.25rem 0.7rem 2.50rem 0.7rem;
+}
+
+#partners-logos-link {
+  padding-top: 1.4rem;
+}
+
+#partners-logos-link ul {
+  width: 100%;
+  gap: 2rem;
+}
+
+#partners-logos-link .partner-link {
+  width: 90px;
+}
+
+#partners-logos-link .partner-link a {
+  width: 100%;
+  display: inline-block;
+}
+
+#partners-logos-link .partner-link a img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#partners-logos-link .partner-link a img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.20);
+}
